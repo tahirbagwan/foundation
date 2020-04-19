@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+}
+
+.head-div{
+	height: 100px;
+	
+}	
+
+/* .main-body{
+	
+	
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*background-images*/
+
+.bgimg{
+	background-image: url('img/WECARE.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+}
+
+
+.wellcome-container { position:relative;height: 100%}
+
+./*wellcome-container video {
+    position:relative;
+    z-index:0;
+    width: 100%;
+    }*/
+
+    @media (min-width: 300px) {
+      .wellcome-container video {
+        margin-top: 110px;
+        min-height: 230px;
+      }
+
+      .wellcome-content{
+        height: 100vh;
+      }
+
+      .overlay {
+        top:90px;
+      }
+
+      h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      p{
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .wellcome-container video {
+        min-height: 600px;
+        height: calc(100vh);
+      }
+
+      .wellcome-content{
+        height: 60vh;
+      }
+
+
+
+      .overlay {
+        top:0px;
+      }
+
+      h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+
+      p{
+       font-size: 20px;
+     }
+   }
+
+   .overlay {
+    position:absolute;
+    left:0px;
+    width: 100%;
+    z-index:1;
+  }
+  @media(max-width: 700px){
+    .overlay{
+      top: 0px;
+    }
+  }
+
+  .wellcome-content-container {
+    position: absolute;
+    background:#ffffffb5;
+    color: #f1f1f1;
+    padding: 20px;
+  }
+
+  @media (min-width: 300px) {
+    .wellcome-content-container {
+      height: 398px;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    .wellcome-content-container {
+      height: 60vh;
+    }
+
+    .wellcome-content {
+      padding: 120px;
+    } 
+  }
+
+  @media (min-width: 992px) {
+    .wellcome-content {
+      padding: 200px;
+    }
+  }
+
+  .wellcome-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .bg-img{  
+    width: 100%;
+    height: 60vh;
+
+  }
+
+
